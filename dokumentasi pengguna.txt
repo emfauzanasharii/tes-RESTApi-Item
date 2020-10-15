@@ -1,0 +1,11 @@
+cara penggunaan modul
+
+1. untuk mengambil data semua item : http://localhost/tes_api/api/item
+2. untuk mengambil item tertentu dengan nama atau kode :http://localhost/tes_api/api/item/search
+ (nb: untuk name key adalah: "search")
+3. untuk method post :http://localhost/tes_api/api/item/simpan
+ (nb : key name adalah "nama" untuk nama item dan "deskripsi" untuk membuat deskripsi item, untuk kode otomatis dari sistem.
+4. untuk method delete : http://localhost/tes_api/api/item/hapus
+ (nb : key name adalah "kode" menggunakan kode item.
+5. untuk method put : http://localhost/tes_api/api/item/update
+ (nb : key name "kode" untuk kode item, "deskripsi" untuk mengedit deskripsi, "nama" untuk mengedit nama item.
